@@ -6,9 +6,8 @@ class Solution {
             char ch = s.charAt(i);
             
             if(ch>='A' && ch<='Z'){
-                char ss =(char)(ch+32);
-                String st=""+ss;
-                sk=sk+st;
+                char ss =(char)(ch+32);  //mene yha pe String st=""+ss kiya tha heheheh
+                 sk=sk+ss;
                 
             }else{
                 sk=sk+ch;
